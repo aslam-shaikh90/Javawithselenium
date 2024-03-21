@@ -8,11 +8,32 @@ public class Student {
 	String sname;
 	char grad;
 	
-	// Methods
+	// Methods 1
 	
 	void printStudentData()
 	{
 		System.out.println(sid+"  "+sname+"  "+grad);
 	}
+	
+	//Methods 2:
+	
+	void setStudentData(int id,String name,char gr)
+	{
+		sid=id;
+		sname=name;
+		grad=gr;
+				
+	}
+	
+	// Constructor
+	
+	Student(int id,String name,char gr)
+	{
+		sid=id;
+		sname=name;
+		grad=gr;
+			
+	}
+	
 
 }
